@@ -1,0 +1,49 @@
+Recursion:
+	Recursion is basically what happens when a function calls itself
+multiple times to solve a given problem.
+
+	Just like loop you also need to specify when that function should
+stop calling itself.
+
+	Such a condition is called base condition.
+
+* Recursive algorithms are usually slower than the iterative algorithms.
+(Sum of n numbers using recursion)
+def sumOfnNumbers(n):
+    if n==1:
+        return 1
+    else:
+        return n+sumOfnNumbers(n-1)
+        
+print(sumOfnNumbers(5))
+
+Here the sum of first 5 numbers is checked. If you want the sum of first
+500000 numbers the code will crash.
+
+Interestingly, the below iterative algorithm to calculate the sum of n 
+numbers has the same complexity, O(n).
+
+(Sum of n numbers using iteration)
+i=5
+total = 0
+while(i):
+    total = total+i
+    i-=1
+print(total)
+
+Note: The below equivalent code has a time complexity of O(1).
+def sumOfnNumbers(n):
+    return n*(n+1)//2
+    
+print(sumOfnNumbers(5))
+
+Advantages of recursive algorithms:
+* It makes the code look simple, neat and intutive
+* Some algorithms are too tough in a iterative way - for example, creating
+or traversing a tree data structure.
+
+
+
+
+
+	

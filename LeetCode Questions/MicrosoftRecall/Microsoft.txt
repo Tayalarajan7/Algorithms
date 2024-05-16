@@ -1,0 +1,33 @@
+1.(
+Search in Rotated Sorted Array
+Search in Rotated Sorted Array II
+Find Minimum in Rotated Sorted Array
+Find Minimum in Rotated Sorted Array II
+)
+2.(
+Reverse Words in a String
+Reverse Words in a String II
+)
+3.(
+Longest Substring with At Most K Distinct Characters
+Maximize the Confusion of an Exam
+Max Consecutive Ones III
+Longest Repeating Character Replacement
+)
+4.Spiral Matrix
+5.String Without AAA or BBB
+6.(
+Min Stack
+Max Stack
+Maximum Frequency Stack
+)
+7.Minimum Deletions to Make String Balanced
+8.Longest Happy String
+9.Maximize Distance to Closest Person
+10.Find N Unique Integers Sum up to Zero
+11.Count Servers that Communicate
+12.Design Circular Queue
+13.Multiply Strings
+14.(Minimum Moves to Equal Array Elements II
+Minimum Moves to Equal Array Elements)
+15.Decode String

@@ -1,0 +1,26 @@
+1.Append K Integers With Minimal Sum
+Note: Summation formula = (n*(n+1))//2
+2.Boats to Save People
+3.Vertical Order Traversal of a Binary Tree
+4.Diameter of Binary Tree
+5.Word Ladder
+6.Longest Consecutive Sequence
+7.Maximum Number of Events That Can Be Attended
+8.Distinct Subsequences
+9.Largest Rectangle in Histogram
+10.Insert Delete GetRandom O(1)
+11.Game of Life
+12.Rank Transform of an Array
+13.Maximum Average Subtree
+14.Sentence Similarity II
+15.Serialize and Deserialize Binary Tree
+16.Next Permutation
+17.Candy
+18.Minesweeper
+19.Find square root of number upto given precision using binary search
+20.Count Primes
+21.Maximum Achievable Greyness
+22.Number of Dice Rolls With Target Sum
+23.4Sum II
+24.Pacific Atlantic Water Flow
+25.Maximum Points You Can Obtain from Cards

@@ -1,0 +1,25 @@
+Palindrome:
+1.Longest Palindromic Substring
+2.Valid Palindrome 2
+
+Parantheses:
+3.Generate Parantheses
+4.Longest valid Parantheses
+5.Valid Parantheses
+(Valid Parenthesis String)
+
+6.Trapping rain water
+7.Edit distance
+8.One edit distance
+
+9.Permutation 2
+10.Subset
+
+11.Number of Islands -DFS,BFS,Union Find (index=curr_row*col+curr_col)
+12.Shortest Path in a binary matrix (0<=x<r and 0<=y<c) (q=tempQ)
+
+13.Meeting Rooms - II
+
+
+
+ 

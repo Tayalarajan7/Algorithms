@@ -1,0 +1,33 @@
+Backtracking:
+	Backtracking is an algorithmic technique where the goal is to get all
+solutions to a problem using the brute force approach.
+
+	It consists of building a set of all solutions incrementally.
+
+	Since a problem would have constraints, the solution that fail to
+satisfy them will be removed.
+
+	It uses recursive calling to find a solution set by building a solution
+step by step, increasing levels with time.
+
+	In order to find these solutions a search tree named state-space tree
+is used.
+	
+	In a state space tree, each branch is a variable, and each level 
+represents a solution.
+
+	A backtracking algorithm uses the depth-first search method. When it
+starts exploring the solutions, a bounding function is applied so that the
+algorithm can check if the so-far build solution satisfies the constraints.
+If it does, it continues searching. If it doesn't the branch would be 
+eliminated, and the algorithm goes back to the level before.
+
+When to use a Backtracking Algorithm:
+	We can use it to find a feasible solution to a decision problem.
+
+	It was also found to be very effective for optimization.
+
+	A backtracking algorithm is used for the enumeration problem in order
+to find the set of all feasible solutions for a problem.
+
+Note: Backtracking is not considered an optimized technique to solve a problem.

@@ -1,0 +1,6 @@
+1.Remove Duplicates from Sorted Array
+2.Remove Duplicates from Sorted Array II
+3.Find All Duplicates in an Array
+4.Degree of an Array
+5.(Split Array into Consecutive Subsequences
+Divide Array in Sets of K Consecutive Numbers)

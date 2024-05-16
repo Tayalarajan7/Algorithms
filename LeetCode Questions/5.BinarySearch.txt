@@ -1,0 +1,7 @@
+1.Search in Rotated Sorted Array
+2.Search in Rotated Sorted Array II
+3.Find Minimum in Rotated Sorted Array
+4.Find Minimum in Rotated Sorted Array II
+5.Kth Smallest Element in a Sorted Matrix
+6.Fixed Point
+7.Single Element in a Sorted Array

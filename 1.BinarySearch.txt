@@ -1,0 +1,36 @@
+Binary Search:
+* Binary search is the search technique which works efficiently on the sorted 
+lists.
+
+* Binary search follows divide and conquer approach in which, the list is
+divided into two halves and the item is compared with the middle element
+of the list. If the match is found then, the location of middle element is
+returned otherwise, we search into either of the halves depending upon
+the result produced through the match.
+
+Complexity:
+1	Worst case			O(log n)
+2	Best case			O(1)
+3	Average Case			O(log n)
+4	Worst case space complexity	O(1)
+
+Question:
+Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+You must write an algorithm with O(log n) runtime complexity.
+
+Example 1:
+Input: nums = [1,3,5,6], target = 5
+Output: 2
+
+Solution:
+def searchInsert(self, nums: List[int], target: int) -> int:
+	start,end=0,len(nums)-1
+        while start<=end:
+            mid=(start+end)//2
+            if nums[mid]==target:
+                return mid
+            elif target<nums[mid]:
+                end=mid-1
+            else:
+                start=mid+1
+        return start

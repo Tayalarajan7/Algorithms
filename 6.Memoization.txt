@@ -1,0 +1,32 @@
+Memoization:
+	In recursion tree, there can be chances that the sub-problem that is
+already solved is being  solved again.	
+
+	Memoization is a technique of recording the intermediate results so that
+it can be used to avoid repeated calculations and speed up the program.
+
+	It can be used to optimize the programs that use recursion.
+
+Question: Little kid running up the step he can jump 1 step, 2 steps or 3 steps
+at a time. How many paths up the steps are there?
+
+Example:
+Solution: Efficient Approach:
+def countNoOfPaths(steps, paths):
+    if steps<0:
+        return 0
+    paths[0] = 1
+    paths[1] = 1
+    paths[2] = 2
+    for i in range(3,steps+1):
+        count = paths[0]+paths[1]+paths[2]
+        paths[0]=paths[1]
+        paths[1]=paths[2]
+        paths[2]=count
+    return paths[2]
+    
+paths=dict()
+print(countNoOfPaths(5, paths))
+
+Complexity:
+* O(n) time O(n) space.

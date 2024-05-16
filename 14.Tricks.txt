@@ -1,0 +1,29 @@
+from itertools import permutations
+from itertools import combinations
+
+from collections import defaultdict
+from collections import counter
+from collections import deque
+from collections import OrderedDict
+
+from sortedcontainers import SortedDict
+from sortedcontainers import SortedList
+
+from functools import cache
+
+import bisect
+import heapq
+heapq.heappush(q,(w,u,v))
+heapq.heappop(q)
+
+counter=Counter(nums)
+
+ord(char) a to z (97 to 122)
+ord(char) A to Z (65 to 90)
+
+chr(number) 97 to 122 (a to z)
+chr(number) 65 to 90 (A to Z)
+
+import random
+mylist = ["apple", "banana", "cherry"]
+print(random.choice(mylist))

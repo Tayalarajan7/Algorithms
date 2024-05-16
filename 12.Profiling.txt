@@ -1,0 +1,24 @@
+Profiling:
+	Profiling is the process of analyzing the space and time requirements
+of our implemented code at runtime.
+
+	A profiler is a tool which will analyze the code and help us identify
+which parts of the code are performing poorly both in terms of time and space. 
+
+Example:
+	Python has a built-in profiler called cProfile, which gives detailed
+analytics of our code from start till end.
+
+def fib(n):
+         if n <= 1:
+                return n
+         else:
+                return(fib(n-1) + fib(n-2))
+print(fib(35));
+
+On using the cProfile
+You can see that the total time is more than 13 seconds and you can see that the
+function has been called a whopping 29860705 times! So, obviously, there are 
+areas of improvement.
+
+

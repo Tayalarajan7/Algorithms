@@ -1,0 +1,17 @@
+Divide and Conquer:
+	Divide and Conquer algorithm is a very useful algorithm where you break
+down the problems into subproblems and you solve the individual subproblem to
+arrive at the final solution.
+
+It involves these primary steps:
+* Divide - Divide the problem into smaller and similar independent problems.
+In other words, the subproblems should not repeat and they should be of the same
+problem type as the original problem.
+
+* Conquer - Solve the subproblem
+
+* Combine - Combine solutions from the various subproblems to arrive at a final
+solution.
+
+Typically, Divide and Conquer is solved using recursion.
+

@@ -1,0 +1,11 @@
+1.Combinations
+2.Combination Sum
+3.Combination Sum II
+
+4.Permutations
+5.Permutations II
+6.Subset
+
+7.Sudoku Solver
+8.N-Queens
+9.N-Queens II

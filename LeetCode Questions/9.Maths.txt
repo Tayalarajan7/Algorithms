@@ -1,0 +1,5 @@
+1.Pow(x, n)
+2.Find Three Consecutive Integers That Sum to a Given Number
+3.Lexicographical Numbers
+4.Minimum Rounds to Complete All Tasks
+5.Minimum Moves to Equal Array Elements

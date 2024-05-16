@@ -1,0 +1,2 @@
+1.Convert Binary Number in a Linked List to Integer
+2.Reverse Integer (pow(2,31) or 2**31)

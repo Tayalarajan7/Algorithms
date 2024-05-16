@@ -1,0 +1,18 @@
+Greedy approach:
+	Greedy approach is a simple approach which gives the optimal solution
+most of the times. This is used in optimizing problems like finding minimum
+or maximum in something.
+
+It involves the below step:
+* Choose a value which is immediately closer to the desired result.
+* Break down the problem into similar sub problem based on the value choosen.
+* Repeat the step till the globally optimal solution is arrived.
+
+The choice made at each step is based on the past and not on future.
+Once decision is made it does not look back and make appropriate changes
+to its earlier decision. A decision made in this approach is final at each
+step.
+
+Similar to real life, a greedy decision looks at an immediate choice which
+will take on step closer to the desired goal. This approach may fail badly
+depending on the data.

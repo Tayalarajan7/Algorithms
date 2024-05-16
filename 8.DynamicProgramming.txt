@@ -1,0 +1,17 @@
+Dynamic programming:
+	Dynamic programming is a way of optimizing your solution by reusing the
+results of older computation. In other words, the intermediate results are stored
+for quick access, instead of being recomputed.
+
+Dynamic programming is applicable where you can not only divide the problem
+into smaller subproblems but those subproblems overlap. In other words in order
+to solve one problem, you have to solve other problems.
+
+In divide and conquer strategy, each subproblem was independent of the other.
+
+Dynamic programming uses two steps:
+* Recursively break down the problem into subproblems.
+* Either use bottom-up or top-down approach to store the results of intermediate
+problems.
+
+ 

@@ -1,0 +1,51 @@
+1.(Pairs of Songs With Total Durations Divisible by 60
+Check If Array Pairs Are Divisible by k)
+2.LRU Cache
+3.Asteroid Collision
+4.Robot Bounded In Circle
+{
+di = (0,1)
+x,y = 0,0
+Left Rotate
+di = (-di[1],di[0])
+Right Rotate
+di = (di[1],-di[0])
+}
+5.Reorganize String
+6.Search Suggestions System
+7.Least Number of Unique Integers after K Removals
+8.(All Nodes Distance K in Binary Tree
+Find Distance in a Binary Tree)
+9.Design Tic-Tac-Toe
+10.Sliding Window Maximum
+11.Find Median from Data Stream
+12.Gas Station
+13.Sell Diminishing-Valued Colored Balls (sort in descending order) (add 0)
+14.(Concatenated Words
+Word Break I
+Word Break II)
+15.Snakes and Ladders
+Note:
+(
+r,c=divmod(index-1,n-(number of columns))
+q=deque([(1,0)])
+)
+16.Reorder Data in Log Files
+17.(Minimum Swaps to Group All 1's Together
+Minimum Swaps to Group All 1's Together II)
+18.(Flip String to Monotone Increasing
+Minimum Deletions to Make String Balanced)
+19.Word Search
+20.Design an Expression Tree With Evaluate Function
+21.Word Search II
+22.Count Binary Substrings
+23.Boundary of Binary Tree
+24.Sum of Subsequence Widths (sort)
+25.Count Unique Characters of All Substrings of a Given String
+26.Integer to English Words
+27.LFU Cache
+28.(Sum of Subarray Minimums (Add -1 to given array and the stack) (Stack in ascending order)
+Largest Rectangle in Histogram) (Add 0 to the given array) (Stack in ascending order)
+29.Sum of Subarray Ranges
+30.Design Search Autocomplete System
+31.Analyze User Website Visit Pattern

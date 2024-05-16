@@ -1,0 +1,4 @@
+1.Reverse Words in a String
+2.Detect Capital
+3.Longest Word in Dictionary through Deleting
+4.Remove All Adjacent Duplicates in String II

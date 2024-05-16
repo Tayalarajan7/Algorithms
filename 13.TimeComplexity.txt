@@ -1,0 +1,36 @@
+Time complexity:
+	Time complexity is the measure of time taken by an algorithm to run.
+
+	The worst case time complexity is represented in Big O notation.
+
+O(1):
+	Finding an element in an array from a given index position.
+
+	This would be constant no matter what the size of array is.
+
+	a[10] is going to take same time as a[1000].
+
+	In this case the worst asymptotic time complexity of the algorithm or
+Big O is a constant. This is represented as O(1).  
+
+O(n):
+	Finding an element in an array.
+
+	If you have 10 element in a array, you need to search all 10 element.
+
+	If you have n element, you need to search all n element.
+	
+	Here, the time taken increases linearly with the size of the input.
+Such a time complexity is represented as O(n).
+
+Note: If there is a loop inside an another loop then its time complexity is
+O(n2)
+
+Big O     Scalability
+1	  Excellent
+log n	  Good
+n	  Average
+n(log n)  Bad
+n2	  Very Bad
+2n	  Very Bad
+n!	  Very Bad

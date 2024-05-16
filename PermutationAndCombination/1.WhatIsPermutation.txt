@@ -1,0 +1,14 @@
+What is Permutation?
+	A permutation is a mathematical technique that determines the number of
+possible arrangements in a set when the order of arrangement matters.
+
+Formula for calculating permutations
+	  n!
+p(n,k)= ______  
+	(n-k)!
+
+where:
+n - the total number of element in a set
+k - the number of selected elements arranged in a specific order
+! - factorial
+
